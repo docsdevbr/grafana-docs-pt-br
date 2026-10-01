@@ -6,7 +6,7 @@
 # SPDX-License-Identifier: AGPL-3.0-only
 # Documentation licensed under the GNU Affero General Public License Version 3.
 # The original work was translated from English into Brazilian Portuguese.
-# https://github.com/docsdevbr/grafana-doc-pt-br/blob/-/LICENSES/AGPL-3.0-only.txt
+# https://github.com/docsdevbr/grafana-docs-pt-br/blob/-/LICENSES/AGPL-3.0-only.txt
 
 description: Learn how to configure SCIM provisioning with Azure AD in Grafana Enterprise. This guide provides step-by-step instructions for setting up automated user and team management, including enterprise application configuration, service account creation, attribute mapping, and provisioning settings to ensure seamless integration between Azure AD and Grafana.
 keywords:

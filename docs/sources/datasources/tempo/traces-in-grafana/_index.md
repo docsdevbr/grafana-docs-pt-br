@@ -6,7 +6,7 @@
 # SPDX-License-Identifier: AGPL-3.0-only
 # Documentation licensed under the GNU Affero General Public License Version 3.
 # The original work was translated from English into Brazilian Portuguese.
-# https://github.com/docsdevbr/grafana-doc-pt-br/blob/-/LICENSES/AGPL-3.0-only.txt
+# https://github.com/docsdevbr/grafana-docs-pt-br/blob/-/LICENSES/AGPL-3.0-only.txt
 
 description: Learn about how you can use tracing data in Grafana Cloud to query data,
   generate metrics, and link your tracing data with logs, metrics, and profiles.

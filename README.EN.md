@@ -1,4 +1,4 @@
-# [grafana-doc-pt-br][page]
+# [grafana-docs-pt-br][page]
 
 [![README file in English][badge-readme-en]][readme-en]
 [![README file in Brazilian Portuguese][badge-readme-pt-br]][readme-pt-br]
@@ -36,7 +36,7 @@ Documentation licensed under the
 [GNU Affero General Public License Version 3][license].<br/>
 The original work was translated from English into Brazilian Portuguese.
 
-[badge-contributors]: https://img.shields.io/github/contributors/docsdevbr/grafana-doc-pt-br
+[badge-contributors]: https://img.shields.io/github/contributors/docsdevbr/grafana-docs-pt-br
 
 [badge-github-sponsors]: https://img.shields.io/github/sponsors/docsdevbr
 
@@ -44,15 +44,15 @@ The original work was translated from English into Brazilian Portuguese.
 
 [badge-readme-en]: https://img.shields.io/badge/lang-en-blue
 
-[badge-readme-pt-br]: https://img.shields.io/badge/lang-pt--br-blue
+[badge-readme-pt-br]: https://img.shields.io/badge/lang-pt--br-dark--green
 
-[badge-reuse]: https://api.reuse.software/badge/github.com/docsdevbr/grafana-doc-pt-br
+[badge-reuse]: https://api.reuse.software/badge/github.com/docsdevbr/grafana-docs-pt-br
 
 [code-of-conduct]: https://github.com/docsdevbr/.github/blob/main/CODE_OF_CONDUCT.EN.md
 
 [contributing]: https://github.com/docsdevbr/.github/blob/main/CONTRIBUTING.EN.md
 
-[contributors]: https://github.com/docsdevbr/grafana-doc-pt-br/graphs/contributors
+[contributors]: https://github.com/docsdevbr/grafana-docs-pt-br/graphs/contributors
 
 [github-sponsors]: https://github.com/sponsors/docsdevbr
 
@@ -64,6 +64,6 @@ The original work was translated from English into Brazilian Portuguese.
 
 [readme-pt-br]: README.md
 
-[reuse]: https://api.reuse.software/info/github.com/docsdevbr/grafana-doc-pt-br
+[reuse]: https://api.reuse.software/info/github.com/docsdevbr/grafana-docs-pt-br
 
 [sponsor]: https://en.docs.dev.br/sponsor.html
