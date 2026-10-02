@@ -9,7 +9,7 @@
 # https://github.com/docsdevbr/grafana-docs-pt-br/blob/-/LICENSES/AGPL-3.0-only.txt
 
 source_url: https://github.com/grafana/grafana/blob/v13.2.3/docs/sources/fundamentals/getting-started/first-dashboards/_index.md
-source_revision: 34c3bb0104bfe4cf94b390e855eb88d5bd987a78
+source_revision: 060a98c17c6a83498aab4103da52d651f0b017c4
 translation_status: ready
 
 aliases:
@@ -80,13 +80,17 @@ Para criar seu primeiro dashboard usando a fonte de dados integrada
 `-- Grafana --`:
 
 1. Clique em **Dashboards** no menu principal.
-1. Na página **Dashboards**, clique em **New** e selecione **New Dashboard** no
+1. Na página **Dashboards**, clique em **New** e selecione **New dashboard** no
    menu suspenso.
-1. Em **Add** no painel de edição, clique ou arraste um painel para o dashboard.
+1. Clique no ícone **Add new element**.
+1. Clique ou arraste um painel para o dashboard.
 
-   {{< figure src="/media/docs/grafana/dashboards/screenshot-add-panel-v12.4.png" max-width="750px" alt="Novo dashboard" >}}
+   {{< figure
+     src="/media/docs/grafana/dashboards/screenshot-empty-dashboard-v13.0.png"
+     max-width="750px"
+     alt="Novo dashboard" >}}
 
-1. No novo painel, clique em **Configure**.
+1. No painel, clique em **Configure visualization**.
 
    A visualização **Edit panel** será aberta com a fonte de dados padrão da sua
    instância pré-selecionada.
@@ -100,17 +104,17 @@ Para criar seu primeiro dashboard usando a fonte de dados integrada
 
 1. No painel **Edit pane**, selecione a visualização **Time series**.
 1. Clique em **Refresh** para consultar a fonte de dados.
-1. Ao terminar de editar o painel, clique em **Save dashboard**.
+1. Ao terminar de editar o painel, clique em **Save**.
 
-   Como alternativa, clique em **Back to dashboard** se quiser ver as alterações
-   aplicadas ao dashboard primeiro.
-   Em seguida, clique em **Save dashboard** quando tiver terminado.
+    Como alternativa, clique em **Back** se quiser ver as alterações aplicadas
+    ao dashboard primeiro.
+    Em seguida, clique em **Save** quando tiver terminado.
 
 1. Adicione um título descritivo para o dashboard ou peça ao Grafana para criar
    um usando
    [recursos de IA generativa](https://grafana.com/docs/grafana/<GRAFANA_VERSION>/dashboards/manage-dashboards#set-up-generative-ai-features-for-dashboards)
    e clique em **Save**.
-1. Clique em **Back to dashboard** e depois em **Exit edit**.
+1. Clique em **Back** e depois em **Exit edit**.
 
 Parabéns, você criou seu primeiro dashboard e ele está exibindo resultados.
 
@@ -139,3 +143,31 @@ servidor Grafana:
 - [Permissões e funções de usuário](https://grafana.com/docs/grafana/<GRAFANA_VERSION>/administration/roles-and-permissions/)
 - [Provisionamento](https://grafana.com/docs/grafana/<GRAFANA_VERSION>/administration/provisioning/)
 - [CLI do Grafana](https://grafana.com/docs/grafana/<GRAFANA_VERSION>/cli/)
+
+## Perguntas frequentes
+
+{{< qa-list >}}
+{{< qa question="O que preciso antes de criar um dashboard do Grafana?" >}}
+Antes de criar um dashboard, você precisará de acesso a uma instância do Grafana
+e, geralmente, a uma fonte de dados que contenha os dados que deseja visualizar.
+Se estiver seguindo este guia de primeiros passos, você poderá usar a fonte de
+dados Grafana integrada para aprender o fluxo de trabalho de criação do
+dashboard antes de conectar seus próprios dados.
+{{< /qa >}}
+{{< qa question="Preciso configurar uma fonte de dados antes de criar um
+  dashboard?" >}}
+Não necessariamente.
+Se estiver seguindo este guia de primeiros passos, você poderá usar a fonte de
+dados Grafana integrada para criar seu primeiro dashboard sem conectar uma fonte
+de dados externa.
+Para dashboards de produção, normalmente você conectará uma fonte de dados
+suportada, como Prometheus, Loki, MySQL ou outra integração suportada.
+{{< /qa >}}
+{{< qa question="Posso editar meu dashboard após salvá-lo?" >}}
+Sim.
+Os dashboards são projetados para serem atualizados ao longo do tempo.
+Após salvar um dashboard, você pode reabri-lo no modo de edição para adicionar
+ou remover painéis, alterar consultas, alternar tipos de visualização, atualizar
+configurações do painel ou renomear o dashboard sempre que necessário.
+{{< /qa >}}
+{{< /qa-list >}}
