@@ -9,8 +9,8 @@
 # https://github.com/docsdevbr/grafana-docs-pt-br/blob/-/LICENSES/AGPL-3.0-only.txt
 
 source_url: https://github.com/grafana/grafana/blob/main/docs/sources/shared/influxdb/intro.md
-revision: 7eb17bcccae0881d794f02ceb39bf80e5709810b
-status: ready
+source_revision: 7eb17bcccae0881d794f02ceb39bf80e5709810b
+translation_status: ready
 
 labels:
   products:

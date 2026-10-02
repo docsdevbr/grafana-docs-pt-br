@@ -9,8 +9,8 @@
 # https://github.com/docsdevbr/grafana-docs-pt-br/blob/-/LICENSES/AGPL-3.0-only.txt
 
 source_url: https://github.com/grafana/grafana/blob/main/docs/sources/introduction/grafana-enterprise.md
-revision: ba6a783997552ad5154918918f79ba1ab06584bc
-status: ready
+source_revision: ba6a783997552ad5154918918f79ba1ab06584bc
+translation_status: ready
 
 aliases:
   - ../enterprise/

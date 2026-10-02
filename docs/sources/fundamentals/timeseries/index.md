@@ -9,8 +9,8 @@
 # https://github.com/docsdevbr/grafana-docs-pt-br/blob/-/LICENSES/AGPL-3.0-only.txt
 
 source_url: https://github.com/grafana/grafana/blob/main/docs/sources/fundamentals/timeseries/index.md
-revision: 8c7090bc110be5b651d02894a050dd33f331a021
-status: ready
+source_revision: 8c7090bc110be5b651d02894a050dd33f331a021
+translation_status: ready
 
 aliases:
   - ../basics/timeseries/

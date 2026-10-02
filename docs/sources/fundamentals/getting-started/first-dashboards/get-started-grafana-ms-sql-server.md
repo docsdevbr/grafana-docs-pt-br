@@ -9,8 +9,8 @@
 # https://github.com/docsdevbr/grafana-docs-pt-br/blob/-/LICENSES/AGPL-3.0-only.txt
 
 source_url: https://github.com/grafana/grafana/blob/main/docs/sources/fundamentals/getting-started/first-dashboards/get-started-grafana-ms-sql-server.md
-revision: 83e190a160cc4ea88e606b9d43b09d4ab8ceb1fa
-status: ready
+source_revision: 83e190a160cc4ea88e606b9d43b09d4ab8ceb1fa
+translation_status: ready
 
 aliases:
   - ../../../getting-started/getting-started-sql/ # /docs/grafana/latest/getting-started/getting-started-sql

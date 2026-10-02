@@ -9,8 +9,8 @@
 # https://github.com/docsdevbr/grafana-docs-pt-br/blob/-/LICENSES/AGPL-3.0-only.txt
 
 source_url: https://github.com/grafana/grafana/blob/main/docs/sources/fundamentals/exemplars/index.md
-revision: a5ee2124401d82051e7f2351d2b89e5f486659e6
-status: ready
+source_revision: a5ee2124401d82051e7f2351d2b89e5f486659e6
+translation_status: ready
 
 aliases:
   - ../basics/exemplars/

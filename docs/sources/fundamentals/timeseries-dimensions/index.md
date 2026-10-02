@@ -9,8 +9,8 @@
 # https://github.com/docsdevbr/grafana-docs-pt-br/blob/-/LICENSES/AGPL-3.0-only.txt
 
 source_url: https://github.com/grafana/grafana/blob/main/docs/sources/fundamentals/timeseries-dimensions/index.md
-revision: 244ffad99d873bab23a1c749ed93384b6822f5b7
-status: ready
+source_revision: 244ffad99d873bab23a1c749ed93384b6822f5b7
+translation_status: ready
 
 aliases:
   - ../basics/timeseries-dimensions/

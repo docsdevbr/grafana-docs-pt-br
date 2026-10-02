@@ -9,8 +9,8 @@
 # https://github.com/docsdevbr/grafana-docs-pt-br/blob/-/LICENSES/AGPL-3.0-only.txt
 
 source_url: https://github.com/grafana/grafana/blob/main/docs/sources/fundamentals/getting-started/first-dashboards/_index.md
-revision: 34c3bb0104bfe4cf94b390e855eb88d5bd987a78
-status: ready
+source_revision: 34c3bb0104bfe4cf94b390e855eb88d5bd987a78
+translation_status: ready
 
 aliases:
   - ../../guides/getting_started/ # /docs/grafana/latest/guides/getting_started/

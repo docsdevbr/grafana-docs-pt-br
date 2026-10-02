@@ -9,8 +9,8 @@
 # https://github.com/docsdevbr/grafana-docs-pt-br/blob/-/LICENSES/AGPL-3.0-only.txt
 
 source_url: https://github.com/grafana/grafana/blob/main/docs/sources/fundamentals/dashboards-overview/index.md
-revision: c77015b329dc32a24556f9303c02d15e0f3cd4f4
-status: ready
+source_revision: c77015b329dc32a24556f9303c02d15e0f3cd4f4
+translation_status: ready
 
 description: Aprenda como os dashboards do Grafana são criados.
 keywords:

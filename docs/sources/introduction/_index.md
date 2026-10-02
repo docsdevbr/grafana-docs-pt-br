@@ -9,8 +9,8 @@
 # https://github.com/docsdevbr/grafana-docs-pt-br/blob/-/LICENSES/AGPL-3.0-only.txt
 
 source_url: https://github.com/grafana/grafana/blob/main/docs/sources/introduction/_index.md
-revision: e48eaa567edcc5ea9cda19c2042dcfc83d02056a
-status: ready
+source_revision: 221de0dfb574b8148c3b4dd1d8d043dd109e3391
+translation_status: ready
 
 aliases:
   - guides/what-is-grafana/

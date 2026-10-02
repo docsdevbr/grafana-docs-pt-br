@@ -9,8 +9,8 @@
 # https://github.com/docsdevbr/grafana-docs-pt-br/blob/-/LICENSES/AGPL-3.0-only.txt
 
 source_url: https://github.com/grafana/grafana/blob/main/docs/sources/fundamentals/intro-histograms/index.md
-revision: 62fc451f7ae7cb8c2829442f0e6c57fae8bccdbd
-status: ready
+source_revision: 62fc451f7ae7cb8c2829442f0e6c57fae8bccdbd
+translation_status: ready
 
 aliases:
   - ../basics/intro-histograms/

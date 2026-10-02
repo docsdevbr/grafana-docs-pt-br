@@ -9,8 +9,8 @@
 # https://github.com/docsdevbr/grafana-docs-pt-br/blob/-/LICENSES/AGPL-3.0-only.txt
 
 source_url: https://github.com/grafana/grafana/blob/main/docs/sources/fundamentals/intro-to-prometheus/index.md
-revision: c10dba5c63caca417bb819a2bbc665113e8bb2d2
-status: ready
+source_revision: c10dba5c63caca417bb819a2bbc665113e8bb2d2
+translation_status: ready
 
 aliases:
   - ../basics/timeseries/
