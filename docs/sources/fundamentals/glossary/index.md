@@ -9,7 +9,7 @@
 # https://github.com/docsdevbr/grafana-docs-pt-br/blob/-/LICENSES/AGPL-3.0-only.txt
 
 source_url: https://github.com/grafana/grafana/blob/v13.2.3/docs/sources/fundamentals/glossary/index.md
-source_revision: ada14df9fd1c9f8f7b93ce7ca33f5a60ecd4cc85
+source_revision: 63558ba0ad58a345186388a8cb6437f1162a70d3
 translation_status: ready
 
 aliases:
@@ -108,6 +108,15 @@ comunidade do Grafana.
     <td>
       Um exporter traduz os dados provenientes de uma fonte de dados para um
       formato que o Prometheus possa interpretar.
+    </td>
+  </tr>
+  <tr>
+    <td style="vertical-align: top"><code>gcx</code></td>
+    <td>
+      Uma ferramenta de linha de comando que permite às pessoas usuárias
+      autenticar, gerenciar vários ambientes e executar tarefas administrativas
+      por meio da API REST do Grafana.
+      É compatível com agentes de IA.
     </td>
   </tr>
   <tr>
