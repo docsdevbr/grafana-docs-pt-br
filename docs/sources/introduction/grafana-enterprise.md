@@ -9,7 +9,7 @@
 # https://github.com/docsdevbr/grafana-docs-pt-br/blob/-/LICENSES/AGPL-3.0-only.txt
 
 source_url: https://github.com/grafana/grafana/blob/v13.2.3/docs/sources/introduction/grafana-enterprise.md
-source_revision: ba6a783997552ad5154918918f79ba1ab06584bc
+source_revision: 042dec538854df7f840df318f5253eabac2e8a02
 translation_status: ready
 
 aliases:
@@ -137,26 +137,28 @@ premium, incluindo:
 
 - [Adobe Analytics](/grafana/plugins/grafana-adobeanalytics-datasource)
 - [Amazon Aurora](/grafana/plugins/grafana-aurora-datasource)
+- [Amazon DynamoDB](/grafana/plugins/grafana-dynamodb-datasource/)
 - [AppDynamics](/grafana/plugins/dlopes7-appdynamics-datasource)
 - [Atlassian Statuspage](/grafana/plugins/grafana-atlassianstatuspage-datasource)
-- [Azure CosmosDB](/grafana/plugins/grafana-azurecosmosdb-datasource)
-- [Azure Devops](/grafana/plugins/grafana-azuredevops-datasource)
+- [Azure Cosmos DB](/grafana/plugins/grafana-azurecosmosdb-datasource)
+- [Azure DevOps](/grafana/plugins/grafana-azuredevops-datasource)
 - [Catchpoint](/grafana/plugins/grafana-catchpoint-datasource)
 - [Cloudflare](/grafana/plugins/grafana-cloudflare-datasource)
 - [CockroachDB](/grafana/plugins/grafana-cockroachdb-datasource)
 - [Databricks](/grafana/plugins/grafana-databricks-datasource)
-- [DataDog](/grafana/plugins/grafana-datadog-datasource)
-- [IBM Db2](/grafana/plugins/grafana-ibmdb2-datasource)
-- [Drone](/grafana/plugins/grafana-drone-datasource)
+- [Datadog](/grafana/plugins/grafana-datadog-datasource)
+- [Drone CI](/grafana/plugins/grafana-drone-datasource)
 - [DynamoDB](/grafana/plugins/grafana-dynamodb-datasource/)
 - [Dynatrace](/grafana/plugins/grafana-dynatrace-datasource)
-- [Gitlab](/grafana/plugins/grafana-gitlab-datasource)
+- [GitLab](/grafana/plugins/grafana-gitlab-datasource)
 - [Grafana Enterprise Logs](/grafana/plugins/grafana-enterprise-logs-app/)
 - [Grafana Enterprise Metrics](/grafana/plugins/grafana-metrics-enterprise-app/)
 - [Grafana Enterprise Traces](/grafana/plugins/grafana-enterprise-traces-app/)
 - [Honeycomb](/grafana/plugins/grafana-honeycomb-datasource)
+- [IBM Db2](/grafana/plugins/grafana-ibmdb2-datasource)
+- [Jenkins](/grafana/plugins/grafana-jenkins-datasource)
 - [Jira](/grafana/plugins/grafana-jira-datasource)
-- [LogicMonitor Devices](/grafana/plugins/grafana-logicmonitor-datasource/)
+- [LogicMonitor](/grafana/plugins/grafana-logicmonitor-datasource/)
 - [Looker](/grafana/plugins/grafana-looker-datasource/)
 - [MongoDB](/grafana/plugins/grafana-mongodb-datasource)
 - [Netlify](/grafana/plugins/grafana-netlify-datasource)
@@ -169,9 +171,12 @@ premium, incluindo:
 - [Snowflake](/grafana/plugins/grafana-snowflake-datasource)
 - [SolarWinds](/grafana/plugins/grafana-solarwinds-datasource)
 - [Splunk](/grafana/plugins/grafana-splunk-datasource)
-- [Splunk Infrastructure monitoring (SignalFx)](/grafana/plugins/grafana-splunk-monitoring-datasource)
-- [Sqlyze Datasource](/grafana/plugins/grafana-odbc-datasource)
-- [SumoLogic](/grafana/plugins/grafana-sumologic-datasource)
+- [Splunk Infrastructure Monitoring](/grafana/plugins/grafana-splunk-monitoring-datasource)
+<!-- vale Grafana.Spelling = NO -->
+- [Sqlyze](/grafana/plugins/grafana-odbc-datasource)
+<!-- vale Grafana.Spelling = YES -->
+- [Sumo Logic](/grafana/plugins/grafana-sumologic-datasource)
+- [Vercel](/grafana/plugins/grafana-vercel-datasource)
 - [Wavefront](/grafana/plugins/grafana-wavefront-datasource)
 - [Zendesk](/grafana/plugins/grafana-zendesk-datasource)
 
