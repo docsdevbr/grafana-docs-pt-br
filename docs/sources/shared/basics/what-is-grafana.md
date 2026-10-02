@@ -30,7 +30,7 @@ temporais (TSDB) em gráficos e visualizações esclarecedores.
 ### Grafana Loki
 
 O Grafana Loki é um conjunto de componentes de código aberto que podem ser
-combinados para formar uma pilha de logging completa.
+combinados para formar uma stack de logging completa.
 Para obter mais informações, consulte a
 [documentação do Loki](https://grafana.com/docs/loki/<LOKI_VERSION>/).
 

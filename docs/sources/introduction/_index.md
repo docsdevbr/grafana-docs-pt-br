@@ -84,6 +84,13 @@ fonte de dados.
 Consulte [Anotações](../dashboards/build-dashboards/annotate-visualizations/)
 para obter mais informações.
 
+## Importe dashboards e plugins
+
+Descubra centenas de [dashboards](/grafana/dashboards) e
+[plugins](/grafana/plugins) na biblioteca oficial.
+Graças à paixão e ao dinamismo das pessoas da comunidade, novos recursos são
+adicionados semanalmente.
+
 ## Variáveis de dashboard
 
 [Variáveis de template](../dashboards/variables/) permitem criar painéis que
@@ -112,12 +119,20 @@ ambiente.
 Você pode definir portas padrão, níveis de logging, endereços IP de e-mail,
 segurança e muito mais.
 
-## Importe dashboards e plugins
+## Provisionamento
 
-Descubra centenas de [dashboards](/grafana/dashboards) e
-[plugins](/grafana/plugins) na biblioteca oficial.
-Graças à paixão e ao dinamismo das pessoas da comunidade, novos recursos são
-adicionados semanalmente.
+Embora seja fácil clicar, arrastar e soltar para criar um único dashboard,
+pessoas usuárias avançadas que precisam de vários dashboards podem optar por
+automatizar a configuração com um script.
+Você pode criar scripts para qualquer coisa no Grafana.
+
+Por exemplo, ao criar um novo cluster Kubernetes, você também pode criar um
+Grafana automaticamente com um script que terá o servidor, o endereço IP e as
+fontes de dados corretos predefinidos e bloqueados para que as pessoas usuárias
+não possam alterá-los.
+Essa também é uma maneira de controlar vários dashboards.
+Consulte [Provisionamento](../administration/provisioning/) para obter mais
+informações.
 
 ## Autenticação
 
@@ -133,21 +148,6 @@ as equipes em seus sistemas internos para equipes no Grafana.
 Dessa forma, você pode conceder acesso automático às equipes designadas para
 cada uma delas.
 Consulte o [Grafana Enterprise](grafana-enterprise/) para obter mais
-informações.
-
-## Provisionamento
-
-Embora seja fácil clicar, arrastar e soltar para criar um único dashboard,
-pessoas usuárias avançadas que precisam de vários dashboards podem optar por
-automatizar a configuração com um script.
-É possível criar scripts para qualquer coisa no Grafana.
-
-Por exemplo, ao criar um novo cluster Kubernetes, você também pode criar um
-Grafana automaticamente com um script que terá o servidor, o endereço IP e as
-fontes de dados corretos predefinidos e bloqueados para que as pessoas usuárias
-não possam alterá-los.
-Essa também é uma maneira de controlar vários dashboards.
-Consulte [Provisionamento](../administration/provisioning/) para obter mais
 informações.
 
 ## Permissões
@@ -167,7 +167,7 @@ Além do Grafana, o Grafana Labs também oferece os seguintes projetos de códig
 aberto:
 
 **Grafana Loki:** O Grafana Loki é um conjunto de componentes de código aberto
-que podem ser combinados para formar uma pilha de logging completa.
+que podem ser combinados para formar uma stack de logging completa.
 Para obter mais informações, consulte a
 [documentação do Grafana Loki](/docs/loki/latest/).
 
@@ -225,3 +225,50 @@ gerenciamento de resposta a incidentes, criada para ajudar as equipes a
 aprimorarem a colaboração e resolverem incidentes mais rapidamente.
 Para mais informações sobre o Grafana OnCall, consulte a
 [documentação do Grafana OnCall](/docs/oncall/latest/).
+
+## Entre em contato e contribua
+
+{{< docs/shared lookup="communicate.md" source="grafana" version="<GRAFANA_VERSION>" >}}
+
+Para mais informações, consulte
+[Contribua para o Grafana](https://grafana.com/docs/grafana/<GRAFANA_VERSION>/developer-resources/contribute).
+
+## Perguntas frequentes
+
+{{< qa-list >}}
+{{< qa question="O que é o Grafana e para que ele serve?" >}}
+O Grafana é um software de código aberto para consultar, visualizar e gerar
+alertas sobre suas métricas, logs e rastros, independentemente de onde estejam
+armazenados.
+Ele é utilizado para monitoramento de infraestrutura e aplicações,
+observabilidade e criação de dashboards operacionais.
+O Grafana transforma dados de séries temporais em gráficos, utilizando um
+framework de plugins que se conecta a diversas fontes de dados, permitindo
+centralizar métricas, logs e rastros em um único local.
+{{< /qa >}}
+{{< qa question="O Grafana é de código aberto e gratuito?" >}}
+Sim, o Grafana é de código aberto e gratuito.
+Você pode baixar o Grafana OSS e hospedá-lo por conta própria sem custo algum.
+A Grafana Labs também oferece duas edições comerciais baseadas no mesmo núcleo:
+o Grafana Enterprise, uma edição autogerenciada que adiciona recursos
+corporativos, plugins e suporte; e o Grafana Cloud, um serviço totalmente
+gerenciado que inclui uma camada gratuita.
+Você pode começar com o Grafana OSS e migrar para o Enterprise ou Cloud conforme
+suas necessidades aumentarem.
+{{< /qa >}}
+{{< qa question="Qual é a diferença entre Grafana OSS, Grafana Enterprise e
+  Grafana Cloud?" >}}
+O Grafana OSS, o Grafana Enterprise e o Grafana Cloud compartilham o mesmo
+núcleo do Grafana, mas diferem na forma como são hospedados e nos recursos que
+oferecem.
+O Grafana OSS é a edição gratuita de código aberto e autogerenciada, que você
+mesmo executa e mantém.
+O Grafana Enterprise também é autogerenciado, mas adiciona recursos comerciais,
+como plugins de fontes de dados corporativas, geração de relatórios, controle de
+acesso aprimorado e suporte oficial.
+O Grafana Cloud é uma plataforma totalmente gerenciada e hospedada pela Grafana
+Labs; ela combina o Grafana com backends para métricas, logs e rastreamentos e
+inclui uma camada gratuita, eliminando a necessidade de você gerenciar a stack
+tecnológica por conta própria.
+{{< /qa >}}
+{{< /qa-list >}}
