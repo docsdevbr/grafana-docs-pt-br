@@ -106,9 +106,9 @@ Para criar seu primeiro dashboard usando a fonte de dados integrada
 1. Clique em **Refresh** para consultar a fonte de dados.
 1. Ao terminar de editar o painel, clique em **Save**.
 
-    Como alternativa, clique em **Back** se quiser ver as alterações aplicadas
-    ao dashboard primeiro.
-    Em seguida, clique em **Save** quando tiver terminado.
+   Como alternativa, clique em **Back** se quiser ver as alterações aplicadas ao
+   dashboard primeiro.
+   Em seguida, clique em **Save** quando tiver terminado.
 
 1. Adicione um título descritivo para o dashboard ou peça ao Grafana para criar
    um usando
