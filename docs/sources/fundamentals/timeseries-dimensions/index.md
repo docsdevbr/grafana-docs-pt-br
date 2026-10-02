@@ -8,7 +8,7 @@
 # The original work was translated from English into Brazilian Portuguese.
 # https://github.com/docsdevbr/grafana-docs-pt-br/blob/-/LICENSES/AGPL-3.0-only.txt
 
-source_url: https://github.com/grafana/grafana/blob/main/docs/sources/fundamentals/timeseries-dimensions/index.md
+source_url: https://github.com/grafana/grafana/blob/v13.2.3/docs/sources/fundamentals/timeseries-dimensions/index.md
 source_revision: 244ffad99d873bab23a1c749ed93384b6822f5b7
 translation_status: ready
 

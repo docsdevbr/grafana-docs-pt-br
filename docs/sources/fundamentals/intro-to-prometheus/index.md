@@ -8,7 +8,7 @@
 # The original work was translated from English into Brazilian Portuguese.
 # https://github.com/docsdevbr/grafana-docs-pt-br/blob/-/LICENSES/AGPL-3.0-only.txt
 
-source_url: https://github.com/grafana/grafana/blob/main/docs/sources/fundamentals/intro-to-prometheus/index.md
+source_url: https://github.com/grafana/grafana/blob/v13.2.3/docs/sources/fundamentals/intro-to-prometheus/index.md
 source_revision: c10dba5c63caca417bb819a2bbc665113e8bb2d2
 translation_status: ready
 

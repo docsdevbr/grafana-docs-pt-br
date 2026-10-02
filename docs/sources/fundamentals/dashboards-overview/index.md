@@ -8,7 +8,7 @@
 # The original work was translated from English into Brazilian Portuguese.
 # https://github.com/docsdevbr/grafana-docs-pt-br/blob/-/LICENSES/AGPL-3.0-only.txt
 
-source_url: https://github.com/grafana/grafana/blob/main/docs/sources/fundamentals/dashboards-overview/index.md
+source_url: https://github.com/grafana/grafana/blob/v13.2.3/docs/sources/fundamentals/dashboards-overview/index.md
 source_revision: c77015b329dc32a24556f9303c02d15e0f3cd4f4
 translation_status: ready
 

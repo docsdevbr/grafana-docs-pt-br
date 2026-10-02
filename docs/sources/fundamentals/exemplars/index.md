@@ -8,7 +8,7 @@
 # The original work was translated from English into Brazilian Portuguese.
 # https://github.com/docsdevbr/grafana-docs-pt-br/blob/-/LICENSES/AGPL-3.0-only.txt
 
-source_url: https://github.com/grafana/grafana/blob/main/docs/sources/fundamentals/exemplars/index.md
+source_url: https://github.com/grafana/grafana/blob/v13.2.3/docs/sources/fundamentals/exemplars/index.md
 source_revision: a5ee2124401d82051e7f2351d2b89e5f486659e6
 translation_status: ready
 

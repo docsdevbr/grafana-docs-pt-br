@@ -8,7 +8,7 @@
 # The original work was translated from English into Brazilian Portuguese.
 # https://github.com/docsdevbr/grafana-docs-pt-br/blob/-/LICENSES/AGPL-3.0-only.txt
 
-source_url: https://github.com/grafana/grafana/blob/main/docs/sources/shared/influxdb/intro.md
+source_url: https://github.com/grafana/grafana/blob/v13.2.3/docs/sources/shared/influxdb/intro.md
 source_revision: 7eb17bcccae0881d794f02ceb39bf80e5709810b
 translation_status: ready
 

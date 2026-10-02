@@ -8,7 +8,7 @@
 # The original work was translated from English into Brazilian Portuguese.
 # https://github.com/docsdevbr/grafana-docs-pt-br/blob/-/LICENSES/AGPL-3.0-only.txt
 
-source_url: https://github.com/grafana/grafana/blob/main/docs/sources/fundamentals/getting-started/first-dashboards/get-started-grafana-ms-sql-server.md
+source_url: https://github.com/grafana/grafana/blob/v13.2.3/docs/sources/fundamentals/getting-started/first-dashboards/get-started-grafana-ms-sql-server.md
 source_revision: 83e190a160cc4ea88e606b9d43b09d4ab8ceb1fa
 translation_status: ready
 
