@@ -8,18 +8,23 @@
 # The original work was translated from English into Brazilian Portuguese.
 # https://github.com/docsdevbr/grafana-docs-pt-br/blob/-/LICENSES/AGPL-3.0-only.txt
 
-description: Includes topics for setting up a Grafana instance.
+source_url: https://github.com/grafana/grafana/blob/v13.2.3/docs/sources/setup-grafana/_index.md
+source_revision: 7eb17bcccae0881d794f02ceb39bf80e5709810b
+translation_status: ready
+
+description: Inclui tópicos sobre a configuração de uma instância do Grafana.
 labels:
   products:
     - enterprise
     - oss
-menuTitle: Set up
-title: Set up Grafana
+menuTitle: Configuração
+title: Configure o Grafana
 weight: 10
 ---
 
-# Set up Grafana
+# Configure o Grafana
 
-This section includes information that helps you get Grafana up and running.
+Esta seção inclui informações que ajudam você a colocar o Grafana em
+funcionamento.
 
 {{< section >}}

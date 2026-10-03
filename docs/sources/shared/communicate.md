@@ -14,7 +14,7 @@ translation_status: ready
 
 headless: true
 comments: >-
-  Comunique-se com Grafana em Sobre, Introdução, Contribuir.
+  Comunique-se com o Grafana em Sobre, Introdução, Contribuir.
 ---
 
 Use o lugar adequado para tirar dúvidas, relatar problemas e propor mudanças.
