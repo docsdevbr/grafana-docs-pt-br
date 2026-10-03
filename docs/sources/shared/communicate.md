@@ -20,13 +20,13 @@ comments: >-
 Use o lugar adequado para tirar dúvidas, relatar problemas e propor mudanças.
 
 - **Issues do GitHub e pull requests**: use para erros reproduzíveis no núcleo
-  do Grafana e plug-ins mantidos, solicitações de recursos pequenas e acionáveis
+  do Grafana e plugins mantidos, solicitações de recursos pequenas e acionáveis
   e alterações de código ou documentos por meio de pull requests.
   Evite perguntas gerais do tipo “como faço”.
   Para questões de segurança, siga a
   [política de segurança](https://github.com/grafana/grafana/security/policy).
 - **Fóruns da comunidade Grafana**: use para perguntas, solução de problemas,
-  práticas recomendadas, perguntas e respostas sobre desenvolvimento de plug-ins
+  práticas recomendadas, perguntas e respostas sobre desenvolvimento de plugins
   e discussão de ideias iniciais.
   Os fóruns criam uma base de conhecimento pública pesquisável que ajuda outras
   pessoas com os mesmos problemas e dúvidas.
