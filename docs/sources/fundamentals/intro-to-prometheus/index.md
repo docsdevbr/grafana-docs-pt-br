@@ -84,9 +84,9 @@ As séries temporais são fundamentais para o Prometheus; seu
 [modelo de dados](https://prometheus.io/docs/concepts/data_model/) é organizado
 em:
 
-- _métricas_ que consistem em um _timestamp_ e uma _amostra_, a qual é o valor
+- _Métricas_ que consistem em um _timestamp_ e uma _amostra_, a qual é o valor
   numérico, como quantos bytes de disco foram lidos ou o preço de uma ação.
-- um conjunto de rótulos chamados _dimensões_, por exemplo, `job` e `device`.
+- Um conjunto de rótulos chamados _dimensões_, por exemplo, `job` e `device`.
 
 Você pode armazenar dados de séries temporais em qualquer banco de dados
 relacional; no entanto, esses sistemas não são desenvolvidos para armazenar e

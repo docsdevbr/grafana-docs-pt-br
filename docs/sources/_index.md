@@ -32,7 +32,7 @@ labels:
   products:
     - enterprise
     - oss
-menuTitle: Documentação do Grafana
+menuTitle: Documentação do Grafana 13.2
 title: Grafana OSS e Enterprise
 hero:
   title: Grafana OSS e Enterprise
