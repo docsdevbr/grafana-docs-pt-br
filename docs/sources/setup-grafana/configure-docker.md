@@ -313,7 +313,7 @@ docker build \
   --build-arg "GF_INSTALL_PLUGINS=grafana-clock-panel,yesoreyeram-infinity-datasource" \
   -t grafana-custom .
 
-# execute o container do Grafana personalizado usando o comando docker run
+# execute o contêiner do Grafana personalizado usando o comando docker run
 docker run -d -p 3000:3000 --name=grafana grafana-custom
 ```
 
