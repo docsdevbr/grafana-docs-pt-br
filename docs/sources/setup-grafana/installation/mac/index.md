@@ -8,91 +8,112 @@
 # The original work was translated from English into Brazilian Portuguese.
 # https://github.com/docsdevbr/grafana-docs-pt-br/blob/-/LICENSES/AGPL-3.0-only.txt
 
+source_url: https://github.com/grafana/grafana/blob/v13.2.3/docs/sources/setup-grafana/installation/mac/index.md
+source_revision: c94f930950e026e79424f9621f8b6f01a8e3e254
+translation_status: ready
+
 aliases:
   - ../../installation/mac/
-description: How to install Grafana OSS or Enterprise on macOS
+description: Como instalar o Grafana OSS ou Enterprise no macOS.
 labels:
   products:
     - enterprise
     - oss
 menuTitle: macOS
-title: Install Grafana on macOS
+title: Instale o Grafana no macOS
 weight: 600
 ---
 
-# Install Grafana on macOS
+# Instale o Grafana no macOS
 
-This page explains how to install Grafana on macOS.
+Esta página explica como instalar o Grafana no macOS.
 
-The following video demonstrates how to install Grafana on macOS as outlined in this document:
+O vídeo a seguir demonstra como instalar o Grafana no macOS, conforme descrito
+neste documento:
 
 {{< youtube id="1zdm8SxOLYQ" >}}
 
-## Install Grafana on macOS using Homebrew
+## Instale o Grafana no macOS usando Homebrew
 
-To install Grafana on macOS using Homebrew, complete the following steps:
+Para instalar o Grafana no macOS usando o Homebrew, siga estes passos:
 
-1. On the [Homebrew](http://brew.sh/) homepage, search for Grafana.
+1. Na página inicial do [Homebrew](http://brew.sh/), pesquise por Grafana.
 
-   The last stable and released version is listed.
+   A última versão estável lançada será exibida.
 
-1. Open a terminal and run the following commands:
+1. Abra um terminal e execute os seguintes comandos:
 
    ```
    brew update
    brew install grafana
    ```
 
-   The brew page downloads and untars the files into:
-   - `/usr/local/Cellar/grafana/[version]` (Intel Silicon)
-   - `/opt/homebrew/Cellar/grafana/[version]` (Apple Silicon)
+   O Homebrew baixa e extrai os arquivos para:
 
-1. To start Grafana, run the following command:
+   - `/usr/local/Cellar/grafana/[versão]` (Intel Silicon)
+   - `/opt/homebrew/Cellar/grafana/[versão]` (Apple Silicon)
+
+1. Para iniciar o Grafana, execute o seguinte comando:
 
    ```bash
    brew services start grafana
    ```
 
-### Using the Grafana CLI with Homebrew
+### Usando a CLI do Grafana com o Homebrew
 
-To use the Grafana CLI with Homebrew, you need to append the home path, the config file path and - based on the command - some other configurations to the `cli` command:
+Para usar a CLI do Grafana com o Homebrew, você precisa adicionar o caminho
+inicial, o caminho do arquivo de configuração e — dependendo do comando —
+algumas outras configurações ao comando `cli`:
 
-For `admin` commands, you need to append the `--configOverrides cfg:default.paths.data=/opt/homebrew/var/lib/grafana` configuration. Example:
+Para comandos `admin`, você precisa adicionar a configuração
+`--configOverrides cfg:default.paths.data=/opt/homebrew/var/lib/grafana`.
+Exemplo:
 
 ```bash
 /opt/homebrew/opt/grafana/bin/grafana cli --config /opt/homebrew/etc/grafana/grafana.ini --homepath /opt/homebrew/opt/grafana/share/grafana --configOverrides cfg:default.paths.data=/opt/homebrew/var/lib/grafana admin reset-admin-password <new password>
 ```
 
-For `plugins` commands, you need to append the `--pluginsDir /opt/homebrew/var/lib/grafana/plugins` configuration. Example:
+Para comandos `plugins`, você precisa adicionar a configuração
+`--pluginsDir /opt/homebrew/var/lib/grafana/plugins`.
+Exemplo:
 
 ```bash
 /opt/homebrew/opt/grafana/bin/grafana cli --config /opt/homebrew/etc/grafana/grafana.ini --homepath /opt/homebrew/opt/grafana/share/grafana --pluginsDir "/opt/homebrew/var/lib/grafana/plugins" plugins install <plugin-id>
 ```
 
-## Install standalone macOS binaries
+## Instale binários independentes para macOS
 
-To install Grafana on macOS using the standalone binaries, complete the following steps:
+Para instalar o Grafana no macOS usando os binários independentes, siga estes
+passos:
 
-1. Navigate to the [Grafana download page](/grafana/download).
-1. Select the Grafana version you want to install.
-   - The most recent Grafana version is selected by default.
-   - The **Version** field displays only tagged releases. If you want to install a nightly build, click **Nightly Builds** and then select a version.
-1. Select an **Edition**.
-   - **Enterprise:** This is the recommended version. It is functionally identical to the open source version, but includes features you can unlock with a license, if you so choose.
-   - **Open Source:** This version is functionally identical to the Enterprise version, but you will need to download the Enterprise version if you want Enterprise features.
-1. Click **Mac**.
-1. Copy and paste the code from the [download page](/grafana/download) into your command line and run.
-1. Untar the `gz` file and copy the files to the location of your preference.
-1. To start Grafana service, go to the directory and run the command:
+1. Acesse a [página de download do Grafana](/grafana/download).
+1. Selecione a versão do Grafana que você deseja instalar.
+   - A versão mais recente do Grafana é selecionada por padrão.
+   - O campo **Version** exibe apenas versões com tag.
+     Se você quiser instalar uma versão de desenvolvimento diária, clique em
+     **Nightly Builds** e selecione uma versão.
+1. Selecione uma **Edition**.
+   - **Enterprise:** esta é a versão recomendada.
+     Ela é funcionalmente idêntica à versão de código aberto, mas inclui
+     recursos que podem ser desbloqueados com uma licença, caso você opte por
+     isso.
+   - **Open Source:** esta versão é funcionalmente idêntica à versão Enterprise,
+     mas você precisará baixar a versão Enterprise se quiser utilizar os
+     recursos Enterprise.
+1. Clique em **Mac**.
+1. Copie e cole o código da [página de download](/grafana/download) na sua linha
+   de comando e execute-o.
+1. Extraia o arquivo `gz` e copie os arquivos para o local de sua preferência.
+1. Para iniciar o serviço do Grafana, vá para o diretório e execute o comando:
 
    ```bash
    ./bin/grafana server
    ```
 
-Alternatively, watch the Grafana for Beginners video below:
+Alternativamente, assista ao vídeo "Grafana para iniciantes" abaixo:
 
 {{< youtube id="T51Qa7eE3W8" >}}
 
-## Next steps
+## Próximos passos
 
-- [Start the Grafana server](../../start-restart-grafana/)
+- [Inicie o servidor Grafana](../../start-restart-grafana/)

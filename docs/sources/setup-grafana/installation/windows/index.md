@@ -14,17 +14,17 @@ translation_status: ready
 
 aliases:
   - ../../installation/windows/
-description: Como instalar o Grafana OSS ou Enterprise no Windows
+description: Como instalar o Grafana OSS ou Enterprise no Windows.
 labels:
   products:
     - enterprise
     - oss
 menuTitle: Windows
-title: Instalar o Grafana no Windows
+title: Instale o Grafana no Windows
 weight: 700
 ---
 
-# Instalar o Grafana no Windows
+# Instale o Grafana no Windows
 
 O vídeo a seguir demonstra como instalar o Grafana usando o instalador
 independente para Windows, conforme descrito neste documento:
@@ -48,13 +48,13 @@ binário independente para Windows.
     mas você precisará baixar a versão Enterprise se quiser utilizar os recursos
     Enterprise.
 1. Clique em **Windows**.
-2. Para usar o instalador do Windows, siga estes passos:
+1. Para usar o instalador do Windows, siga estes passos:
 
    a. Clique em **Download the installer** (Baixar o instalador).
 
    b. Abra e execute o instalador.
 
-3. Para instalar o binário independente para Windows, siga estes passos:
+1. Para instalar o binário independente para Windows, siga estes passos:
 
    a. Clique em **Download the zip file**.
 
@@ -79,7 +79,7 @@ ferramenta.
    > Se o Grafana não aparecer na porta padrão, você pode alterar o número da
    > porta.
 
-2. Para alterar a porta, siga estes passos:
+1. Para alterar a porta, siga estes passos:
 
    a. Abra o diretório `conf` e copie o arquivo `sample.ini` para `custom.ini`.
 
