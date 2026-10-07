@@ -8,69 +8,92 @@
 # The original work was translated from English into Brazilian Portuguese.
 # https://github.com/docsdevbr/grafana-docs-pt-br/blob/-/LICENSES/AGPL-3.0-only.txt
 
+source_url: https://github.com/grafana/grafana/blob/v13.2.3/docs/sources/setup-grafana/installation/windows/index.md
+source_revision: 13cf67de539c7e0de938818ab26df25c6681e1f3
+translation_status: ready
+
 aliases:
   - ../../installation/windows/
-description: How to install Grafana OSS or Enterprise on Windows
+description: Como instalar o Grafana OSS ou Enterprise no Windows
 labels:
   products:
     - enterprise
     - oss
 menuTitle: Windows
-title: Install Grafana on Windows
+title: Instalar o Grafana no Windows
 weight: 700
 ---
 
-# Install Grafana on Windows
+# Instalar o Grafana no Windows
 
-The following video demonstrates how to install Grafana using the Windows standalone installer as outlined in this document:
+O vídeo a seguir demonstra como instalar o Grafana usando o instalador
+independente para Windows, conforme descrito neste documento:
 
 {{< youtube id="js2bZijbhJM" >}}
 
-You install Grafana using the Windows installer or using the standalone Windows binary file.
+Você pode instalar o Grafana usando o instalador para Windows ou o arquivo
+binário independente para Windows.
 
-1. Navigate to the [Grafana download page](/grafana/download).
-1. Select the Grafana version you want to install.
-   - The most recent Grafana version is selected by default.
-   - The **Version** field displays only tagged releases. If you want to install a nightly build, click **Nightly Builds** and then select a version.
-1. Select an **Edition**.
-   - **Enterprise:** This is the recommended version. It is functionally identical to the open source version, but includes features you can unlock with a license, if you so choose.
-   - **Open Source:** This version is functionally identical to the Enterprise version, but you will need to download the Enterprise version if you want Enterprise features.
-1. Click **Windows**.
-1. To use the Windows installer, complete the following steps:
+1. Acesse a [página de download do Grafana](/grafana/download).
+1. Selecione a versão do Grafana que deseja instalar.
+  - A versão mais recente do Grafana é selecionada por padrão.
+  - O campo **Version** exibe apenas versões com tag.
+  - Se quiser instalar uma versão de desenvolvimento diária, clique em **Nightly
+    Builds** e selecione uma versão.
+1. Selecione uma **Edition**.
+  - **Enterprise:** esta é a versão recomendada.
+    Ela é funcionalmente idêntica à versão de código aberto, mas inclui recursos
+    que podem ser desbloqueados com uma licença, caso você opte por isso.
+  - **Open Source:** esta versão é funcionalmente idêntica à versão Enterprise,
+    mas você precisará baixar a versão Enterprise se quiser utilizar os recursos
+    Enterprise.
+1. Clique em **Windows**.
+2. Para usar o instalador do Windows, siga estes passos:
 
-   a. Click **Download the installer**.
+   a. Clique em **Download the installer** (Baixar o instalador).
 
-   b. Open and run the installer.
+   b. Abra e execute o instalador.
 
-1. To install the standalone Windows binary, complete the following steps:
+3. Para instalar o binário independente para Windows, siga estes passos:
 
-   a. Click **Download the zip file**.
+   a. Clique em **Download the zip file**.
 
-   b. Right-click the downloaded file, select **Properties**, select the `unblock` checkbox, and click `OK`.
+   b. Clique com o botão direito no arquivo baixado, selecione **Propriedades**,
+      marque a caixa de seleção `unblock` e clique em `OK`.
 
-   c. Extract the ZIP file to any folder.
+   c. Extraia o arquivo ZIP para qualquer pasta.
 
-Start Grafana by executing `grafana-server.exe`, located in the `bin` directory, preferably from the command line. If you want to run Grafana as a Windows service, then download
-[NSSM](https://nssm.cc/). It is very easy to add Grafana as a Windows service using that tool.
+Inicie o Grafana executando o arquivo `grafana-server.exe`, localizado no
+diretório `bin`, preferencialmente via linha de comando.
+Se quiser executar o Grafana como um serviço do Windows, baixe o
+[NSSM](https://nssm.cc/).
+É muito fácil adicionar o Grafana como um serviço do Windows usando essa
+ferramenta.
 
-1. To run Grafana, open your browser and go to the Grafana port (http://localhost:3000/ is default) and then follow the instructions in [Getting Started](../../../getting-started/build-first-dashboard/).
+1. Para executar o Grafana, abra seu navegador e acesse a porta do Grafana (o
+   padrão é http://localhost:3000/) e, em seguida, siga as instruções em
+   [Getting Started](../../../getting-started/build-first-dashboard/).
 
-   > **Note:** The default Grafana port is `3000`. This port might require extra permissions on Windows. If it does not appear in the default port, you can change the port number.
+   > **Nota:** A porta padrão do Grafana é `3000`.
+   > Essa porta pode exigir permissões adicionais no Windows.
+   > Se o Grafana não aparecer na porta padrão, você pode alterar o número da
+   > porta.
 
-1. To change the port, perform the following steps:
+2. Para alterar a porta, siga estes passos:
 
-   a. Open the `conf` directory and copy `sample.ini` to `custom.ini`.
+   a. Abra o diretório `conf` e copie o arquivo `sample.ini` para `custom.ini`.
 
-   > **Note:** You should edit `custom.ini`, never `defaults.ini`.
+      > **Nota:** Você deve editar o `custom.ini`, nunca o `defaults.ini`.
 
-   b. Edit `custom.ini` and uncomment the `http_port` configuration option.
+   b. Edite o `custom.ini` e remova o comentário da opção de configuração
+      `http_port`.
 
-   `;` is the comment character in ini files.
+      O caractere `;` é usado para comentários em arquivos `.ini`.
 
-   c. Change the port to `8080` or something similar.
+   c. Altere a porta para `8080` ou algo semelhante.
 
-   Port `8080` should not require extra Windows privileges.
+      A porta `8080` não deve exigir privilégios adicionais no Windows.
 
-## Next steps
+## Próximos passos
 
-- [Start the Grafana server](../../start-restart-grafana/)
+- [Inicie o servidor Grafana](../../start-restart-grafana/)
