@@ -87,10 +87,10 @@ Para instalar o Grafana no macOS usando os binários independentes, siga estes
 passos:
 
 1. Acesse a [página de download do Grafana](/grafana/download).
-1. Selecione a versão do Grafana que você deseja instalar.
+1. Selecione a versão do Grafana que deseja instalar.
    - A versão mais recente do Grafana é selecionada por padrão.
    - O campo **Version** exibe apenas versões com tag.
-     Se você quiser instalar uma versão de desenvolvimento diária, clique em
+     Se quiser instalar uma versão diária de desenvolvimento, clique em
      **Nightly Builds** e selecione uma versão.
 1. Selecione uma **Edition**.
    - **Enterprise:** esta é a versão recomendada.

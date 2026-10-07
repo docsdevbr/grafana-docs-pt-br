@@ -36,17 +36,18 @@ binário independente para Windows.
 
 1. Acesse a [página de download do Grafana](/grafana/download).
 1. Selecione a versão do Grafana que deseja instalar.
-  - A versão mais recente do Grafana é selecionada por padrão.
-  - O campo **Version** exibe apenas versões com tag.
-  - Se quiser instalar uma versão de desenvolvimento diária, clique em **Nightly
-    Builds** e selecione uma versão.
+   - A versão mais recente do Grafana é selecionada por padrão.
+   - O campo **Version** exibe apenas versões com tag.
+     Se quiser instalar uma versão diária de desenvolvimento, clique em
+     **Nightly Builds** e selecione uma versão.
 1. Selecione uma **Edition**.
-  - **Enterprise:** esta é a versão recomendada.
-    Ela é funcionalmente idêntica à versão de código aberto, mas inclui recursos
-    que podem ser desbloqueados com uma licença, caso você opte por isso.
-  - **Open Source:** esta versão é funcionalmente idêntica à versão Enterprise,
-    mas você precisará baixar a versão Enterprise se quiser utilizar os recursos
-    Enterprise.
+   - **Enterprise:** esta é a versão recomendada.
+     Ela é funcionalmente idêntica à versão de código aberto, mas inclui
+     recursos que podem ser desbloqueados com uma licença, caso você opte por
+     isso.
+   - **Open Source:** esta versão é funcionalmente idêntica à versão Enterprise,
+     mas você precisará baixar a versão Enterprise se quiser utilizar os
+     recursos Enterprise.
 1. Clique em **Windows**.
 1. Para usar o instalador do Windows, siga estes passos:
 
