@@ -1,3 +1,8 @@
+> [!IMPORTANT]
+> **This repository has moved to Codeberg.**<br/>
+> Development, issues, and pull requests are now tracked at
+> **[docsdev/grafana-docs-pt-br](https://codeberg.org/docsdev/grafana-docs-pt-br)**.
+
 # [grafana-docs-pt-br][page]
 
 [![README file in English][badge-readme-en]][readme-en]
